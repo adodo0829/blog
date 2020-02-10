@@ -12,10 +12,11 @@
 
 ## 项目管理
 
-## 数据接口与算法
+## 数据结构与算法
 
 ## 后端
 
 ## 运维
 - Linux  
 1.[linux 系统常用命令](https://github.com/appleguardu/Knowledge-Lib/issues/1)
+- Nginx  
