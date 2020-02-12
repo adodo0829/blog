@@ -18,7 +18,11 @@
 ## 后端
 
 ## 运维
-### Linux  
+#### Linux  
 - [linux 系统常用命令](https://github.com/appleguardu/Knowledge-Lib/issues/1)
-### Nginx  
+#### Nginx  
 - [nginx 配置文件](https://github.com/appleguardu/Knowledge-Lib/issues/2)
+- [nginx 指令及错误页配置](https://github.com/appleguardu/Knowledge-Lib/issues/3)
+- [nginx 设置虚拟主机&反向代理](https://github.com/appleguardu/Knowledge-Lib/issues/4)
+- [nginx 适配PC或移动设备](https://github.com/appleguardu/Knowledge-Lib/issues/5)
+
