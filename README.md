@@ -20,6 +20,7 @@
 ## 运维
 #### Linux  
 - [linux 系统常用命令](https://github.com/appleguardu/Knowledge-Lib/issues/1)
+- [shell 脚本命令](https://github.com/appleguardu/Knowledge-Lib/issues/6)
 #### Nginx  
 - [nginx 配置文件](https://github.com/appleguardu/Knowledge-Lib/issues/2)
 - [nginx 指令及错误页配置](https://github.com/appleguardu/Knowledge-Lib/issues/3)
