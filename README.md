@@ -7,7 +7,7 @@
 
 ## 前端框架
 #### nuxt.js
-- [vue ssr框架 nuxt](https://github.com/appleguardu/Knowledge-Lib/issues/6)
+- [vue ssr框架 nuxt介绍](https://github.com/appleguardu/Knowledge-Lib/issues/6)
 ## 前端工具库
 
 ## 性能优化
