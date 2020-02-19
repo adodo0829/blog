@@ -1,12 +1,13 @@
 # 构建个人知识库
 对日常学习以及工作的总结
 
-## 前端
+## 前端基础
 
 ## 浏览器环境
 
 ## 前端框架
-
+#### nuxt.js
+- [vue ssr框架 nuxt](https://github.com/appleguardu/Knowledge-Lib/issues/6)
 ## 前端工具库
 
 ## 性能优化
@@ -15,7 +16,7 @@
 
 ## 数据结构与算法
 
-## 后端
+## 后端基础
 
 ## 运维
 #### Linux  
