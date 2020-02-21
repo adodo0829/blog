@@ -1,24 +1,25 @@
-# 构建个人知识库
-对日常学习以及工作的总结
+# 知识体系搭建
+对日常零碎的知识进行归类总结, 建立自己的知识体系
 
 ## 前端基础
 
 ## 浏览器环境
 
 ## 前端框架
+### 应用层
 #### Nuxt.js应用层
 - [vue ssr框架 nuxt介绍](https://github.com/appleguardu/Knowledge-Lib/issues/6)
-## 前端工具库
+### 源码层
+
+## 前端工程化
 
 ## 性能优化
-
-## 项目管理
 
 ## 数据结构与算法
 
 ## 后端基础
 
-## 运维
+## 运维部署&服务器
 #### Linux  
 - [linux 系统常用命令](https://github.com/appleguardu/Knowledge-Lib/issues/1)
 - [shell 脚本命令](https://github.com/appleguardu/Knowledge-Lib/issues/6)
