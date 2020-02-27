@@ -7,7 +7,7 @@
 - [关于 html5](https://github.com/appleguardu/Knowledge-Lib/issues/9)
 ### CSS
 - [关于 css](https://github.com/appleguardu/Knowledge-Lib/issues/10)
-### js
+### JAVAScript
 #### ECMAScript
 - [基础语法](https://github.com/appleguardu/Knowledge-Lib/issues/11)
 
