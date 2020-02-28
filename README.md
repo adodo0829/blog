@@ -10,6 +10,7 @@
 ### JAVAScript
 #### ECMAScript
 - [基础语法](https://github.com/appleguardu/Knowledge-Lib/issues/11)
+- [原生数据类型](https://github.com/appleguardu/Knowledge-Lib/issues/12)
 
 ## 浏览器环境
 
