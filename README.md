@@ -12,14 +12,16 @@
     - [基础语法](https://github.com/appleguardu/Knowledge-Lib/issues/11)
     - [原生数据类型](https://github.com/appleguardu/Knowledge-Lib/issues/12)
       - [null与undefined](https://github.com/appleguardu/Knowledge-Lib/issues/13)
-
+      - [包装对象与原始类型: number,string,boolean](https://github.com/appleguardu/Knowledge-Lib/issues/13)
+  - BOM
+  - DOM
 ## 浏览器环境
 
 ## 前端框架
 - 应用层
   - Nuxt.js应用层
     - [vue ssr框架 nuxt介绍](https://github.com/appleguardu/Knowledge-Lib/issues/7)
-### 源码层
+- 源码层
 
 ## 前端工程化
 
