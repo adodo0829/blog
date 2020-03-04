@@ -13,7 +13,7 @@
     - [原生数据类型](https://github.com/appleguardu/Knowledge-Lib/issues/12)
       - [null与undefined](https://github.com/appleguardu/Knowledge-Lib/issues/13)
       - [包装对象与原始类型: number,string,boolean](https://github.com/appleguardu/Knowledge-Lib/issues/14)
-      - [函数类型: number,string,boolean](https://github.com/appleguardu/Knowledge-Lib/issues/15)
+      - [函数类型](https://github.com/appleguardu/Knowledge-Lib/issues/15)
   - BOM
   - DOM
 ## 浏览器环境
