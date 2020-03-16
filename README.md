@@ -11,9 +11,13 @@
   - ECMAScript
     - [基础语法](https://github.com/appleguardu/Knowledge-Lib/issues/11)
     - [原生数据类型](https://github.com/appleguardu/Knowledge-Lib/issues/12)
+      - [数据类型检测](https://github.com/appleguardu/Knowledge-Lib/issues/18)
       - [null与undefined](https://github.com/appleguardu/Knowledge-Lib/issues/13)
       - [包装对象与原始类型: number,string,boolean](https://github.com/appleguardu/Knowledge-Lib/issues/14)
-      - [函数类型](https://github.com/appleguardu/Knowledge-Lib/issues/15)
+      - 其他内置对象类型
+        - [正则对象类型](https://github.com/appleguardu/Knowledge-Lib/issues/16)
+        - [错误对象类型](https://github.com/appleguardu/Knowledge-Lib/issues/17)
+      - [函数类型(一)](https://github.com/appleguardu/Knowledge-Lib/issues/15)
   - BOM
   - DOM
 ## 浏览器环境
