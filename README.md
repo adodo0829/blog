@@ -6,6 +6,8 @@
 - HTML
   - [关于 html](https://github.com/appleguardu/Knowledge-Lib/issues/8)
   - [关于 html5](https://github.com/appleguardu/Knowledge-Lib/issues/9)
+  - H5中一些知识点详解
+    - [Storage API](https://github.com/appleguardu/Knowledge-Lib/issues/19)
 - CSS
   - [关于 css](https://github.com/appleguardu/Knowledge-Lib/issues/10)
 - JAVAScript
