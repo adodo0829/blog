@@ -23,9 +23,15 @@
       - 其他内置对象类型
         - [正则对象类型](https://github.com/appleguardu/Knowledge-Lib/issues/16)
         - [错误对象类型](https://github.com/appleguardu/Knowledge-Lib/issues/17)
-      - [函数类型(一)](https://github.com/appleguardu/Knowledge-Lib/issues/15)
+      - 函数类型
+        - [函数类型(总览)](https://github.com/appleguardu/Knowledge-Lib/issues/15)
+        - [函数类型(参数)](https://github.com/appleguardu/Knowledge-Lib/issues/20)
+        - [函数类型(自身属性&方法)](https://github.com/appleguardu/Knowledge-Lib/issues/21)
   - BOM
   - DOM
+- ES6
+- Network
+- TypeScript
 ## 浏览器环境
 
 ## 前端框架

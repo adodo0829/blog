@@ -4,9 +4,9 @@
  * 2.指定原型
  * 3.绑定 this
  * 4.返回这个对象
- * js中可以通过 new Function的方式创建一个实例对象
+ * js中可以通过 new Function的方式创建一个 `实例对象`
  * 分析: 
- * 我们需要接受一个构造函数和一些实例属性, 创建我们想要的实例对象
+ * 我们需要接受一个`构造函数`和一些`实例属性`, 创建我们想要的`实例对象`
  */
 
 function createInstance(constructorFunc, ...args) {
@@ -42,5 +42,5 @@ let func1 = createInstance(Func, 'huhua', 'male')
 console.log(func1.xx, func1.gender)
 func1.say()
 
-// ************
+// ****** MDN ******
 // Object.setPrototypeOf()是ECMAScript 6最新草案中的方法，相对于 Object.prototype.__proto__ ，它被认为是修改对象原型更合适的方法
