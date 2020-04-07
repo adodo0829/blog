@@ -15,7 +15,7 @@
   - [关于 css](https://github.com/appleguardu/Knowledge-Lib/issues/10)
 - JAVAScript
   - ECMAScript
-    - [基础语法](https://github.com/appleguardu/Knowledge-Lib/issues/11)
+    - [基础语法概览](https://github.com/appleguardu/Knowledge-Lib/issues/11)
     - [原生数据类型](https://github.com/appleguardu/Knowledge-Lib/issues/12)
       - [数据类型检测](https://github.com/appleguardu/Knowledge-Lib/issues/18)
       - [null与undefined](https://github.com/appleguardu/Knowledge-Lib/issues/13)
@@ -29,6 +29,7 @@
         - [函数类型(自身属性&方法)](https://github.com/appleguardu/Knowledge-Lib/issues/22)
         - [函数类型(高阶函数应用)](https://github.com/appleguardu/Knowledge-Lib/issues/23)
         - [函数类型(一些扩展知识)](https://github.com/appleguardu/Knowledge-Lib/issues/24)
+      - 对象类型
   - BOM
   - DOM
 - ES6
@@ -64,3 +65,5 @@
   - [nginx 设置虚拟主机&反向代理](https://github.com/appleguardu/Knowledge-Lib/issues/4)
   - [nginx 适配PC或移动设备](https://github.com/appleguardu/Knowledge-Lib/issues/5)
 
+## 技术之外
+- [谈谈个人的学习方法](https://github.com/appleguardu/Knowledge-Lib/issues/25)
