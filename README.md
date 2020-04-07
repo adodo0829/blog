@@ -27,6 +27,8 @@
         - [函数类型(总览)](https://github.com/appleguardu/Knowledge-Lib/issues/15)
         - [函数类型(参数)](https://github.com/appleguardu/Knowledge-Lib/issues/21)
         - [函数类型(自身属性&方法)](https://github.com/appleguardu/Knowledge-Lib/issues/22)
+        - [函数类型(高阶函数应用)](https://github.com/appleguardu/Knowledge-Lib/issues/23)
+        - [函数类型(一些扩展知识)](https://github.com/appleguardu/Knowledge-Lib/issues/24)
   - BOM
   - DOM
 - ES6
