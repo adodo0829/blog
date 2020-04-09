@@ -30,6 +30,8 @@
         - [函数类型(高阶函数应用)](https://github.com/appleguardu/Knowledge-Lib/issues/23)
         - [函数类型(一些扩展知识)](https://github.com/appleguardu/Knowledge-Lib/issues/24)
       - 对象类型
+        - [对象及其属性和方法](https://github.com/appleguardu/Knowledge-Lib/issues/26)
+        - [对象及属性操作和描述](https://github.com/appleguardu/Knowledge-Lib/issues/27)
   - BOM
   - DOM
 - ES6
