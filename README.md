@@ -53,6 +53,13 @@
 - 源码层
 
 ## 前端工程化
+- webpack打包工具
+  - [模块化规范概览](https://github.com/appleguardu/Knowledge-Lib/issues/7)
+- ci/cd持续集成
+- lint代码规范管理
+- unit-test单元测试
+- git代码版本管理
+- 脚本工具
 
 ## 性能优化
 
