@@ -30,11 +30,12 @@
         - [函数类型(高阶函数应用)](https://github.com/appleguardu/Knowledge-Lib/issues/23)
         - [函数类型(一些扩展知识)](https://github.com/appleguardu/Knowledge-Lib/issues/24)
       - 对象类型
-        - [对象及其属性和方法](https://github.com/appleguardu/Knowledge-Lib/issues/26)
-        - [对象及属性操作和描述](https://github.com/appleguardu/Knowledge-Lib/issues/27)
+        - [属性和方法](https://github.com/appleguardu/Knowledge-Lib/issues/26)
+        - [属性操作和描述](https://github.com/appleguardu/Knowledge-Lib/issues/27)
      - 进阶知识点理解
         - [作用域与闭包](https://github.com/appleguardu/Knowledge-Lib/issues/28)
-        - [原型与继承](https://github.com/appleguardu/Knowledge-Lib/issues/28)
+        - [this的理解和使用](https://github.com/appleguardu/Knowledge-Lib/issues/29)
+        - [原型与继承](https://github.com/appleguardu/Knowledge-Lib/issues/30)
   - BOM
   - DOM
 - ES6
