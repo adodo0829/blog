@@ -32,10 +32,11 @@
       - 对象类型
         - [对象类型(属性和方法)](https://github.com/appleguardu/Knowledge-Lib/issues/27)
         - [对象类型(属性操作)](https://github.com/appleguardu/Knowledge-Lib/issues/28)
+        - [对象类型(属性描述符)](https://github.com/appleguardu/Knowledge-Lib/issues/29)
      - 进阶知识点理解
-        - [作用域与闭包](https://github.com/appleguardu/Knowledge-Lib/issues/28)
-        - [this的理解和使用](https://github.com/appleguardu/Knowledge-Lib/issues/29)
-        - [原型与继承](https://github.com/appleguardu/Knowledge-Lib/issues/30)
+        - [作用域与闭包](https://github.com/appleguardu/Knowledge-Lib/issues/30)
+        - [this的理解和使用](https://github.com/appleguardu/Knowledge-Lib/issues/31)
+        - [原型与继承](https://github.com/appleguardu/Knowledge-Lib/issues/32)
   - BOM
   - DOM
 - ES6
