@@ -1,0 +1,71 @@
+(function (self) {
+    var __runtimeConfig = /* runtime-config */;
+    var cache = {};
+    var moduleList = [
+        /* module-list-template */
+    ];
+    var moduleDepMapList = [
+        /* module-dep-map-list-template */
+    ];
+
+    var require = function require(id, parentModuleId) {
+        var currentModuleId = parentModuleId !== undefined ? moduleDepMapList[parentModuleId][id] : id;
+        if (cache.hasOwnProperty(currentModuleId)) return cache[currentModuleId];
+        var module = {exports: {}};
+        var func = moduleList[currentModuleId];
+        func(
+            (function(parentModuleId) {
+                var closureRequire = function closureRequire(id) {
+                    return require(id, parentModuleId);
+                }
+                closureRequire.ensure = function closureRequire(id) {
+                    return require.ensure(id, parentModuleId);
+                }
+                return closureRequire;
+            })(id),
+            module,
+            module.exports
+        );
+        cache[currentModuleId] = module.exports;
+        return cache[currentModuleId];
+    };
+
+    if (/* dynamic-import-status */) {
+        self["__dynamicRequire"] = function __dynamicRequire(chunkId, func) {
+            var chunkCache = cache[chunkId];
+            var resolve = chunkCache[0];
+            var module = {exports: {}};
+            func(require, module, module.exports);
+            cache[chunkId] = module.exports;
+            resolve(cache[chunkId]);
+        };
+
+        require.ensure = function requireEnsure(chunkId, parentModuleId) {
+            var chunkStatusSymbol = '__isPending';
+            var currentModuleId = moduleDepMapList[parentModuleId][chunkId];
+            var chunkPromise = cache[currentModuleId];
+
+            if (chunkPromise === void 0) {
+                var $script = document.createElement("script");
+                $script.src = __runtimeConfig.public + currentModuleId + ".js";
+                document.body.appendChild($script);
+                var promise = new Promise(function(resolve) {
+                    var chunkCache = [resolve];
+                    chunkCache[chunkStatusSymbol] = true;
+                    cache[currentModuleId] = chunkCache;
+                });
+                cache[currentModuleId].push(promise);
+                return promise;
+            }
+
+            if (chunkPromise[chunkStatusSymbol]) {
+                return chunkPromise[1];
+            }
+
+            return chunkPromise;
+        };
+    }
+
+    require(moduleList.length - 1);
+
+})(this);
