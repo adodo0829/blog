@@ -15,6 +15,7 @@
   - [关于 css](https://github.com/appleguardu/Knowledge-Lib/issues/10)
 - JAVAScript
   - ECMAScript
+    - [ECMAScript规范](http://yanhaijing.com/es5/)
     - [基础语法概览](https://github.com/appleguardu/Knowledge-Lib/issues/11)
     - [原生数据类型](https://github.com/appleguardu/Knowledge-Lib/issues/12)
       - [数据类型检测](https://github.com/appleguardu/Knowledge-Lib/issues/18)
@@ -36,7 +37,7 @@
      - 进阶知识点理解
         - [作用域与闭包](https://github.com/appleguardu/Knowledge-Lib/issues/30)
         - [this的理解和使用](https://github.com/appleguardu/Knowledge-Lib/issues/31)
-        - [原型与继承](https://github.com/appleguardu/Knowledge-Lib/issues/32)
+        - [原型与继承](https://segmentfault.com/n/1330000018527300)
   - BOM
   - DOM
 - ES6
