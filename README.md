@@ -63,6 +63,13 @@
 - git代码版本管理
 - 脚本工具
 
+## 跨端开发
+- PC
+- H5
+- Hybrid App
+- Electron
+- Native App
+
 ## 性能优化
 
 ## 数据结构与算法
