@@ -38,8 +38,15 @@
         - [作用域与闭包](https://github.com/appleguardu/Knowledge-Lib/issues/30)
         - [this的理解和使用](https://github.com/appleguardu/Knowledge-Lib/issues/31)
         - [原型与继承](https://segmentfault.com/n/1330000018527300)
+  - DOM  
+    - [文档对象模型规范](https://www.w3school.com.cn/js/js_htmldom.asp)
+    - [DOM的操作封装](https://github.com/appleguardu/Knowledge-Lib/blob/master/utils/dom.js)
   - BOM
-  - DOM
+    - [浏览器对象模型规范](https://www.w3school.com.cn/js/js_window.asp)
+  - Web API
+    - [js可调用的web api](https://developer.mozilla.org/zh-CN/docs/Web/API)
+  - Ajax
+    - [原生ajax文档规范](https://www.w3school.com.cn/js/js_ajax_intro.asp)
 - ES6
 - Network
 - TypeScript
