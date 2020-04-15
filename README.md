@@ -40,6 +40,7 @@
         - [原型与继承](https://segmentfault.com/n/1330000018527300)
   - DOM  
     - [文档对象模型规范](https://www.w3school.com.cn/js/js_htmldom.asp)
+    - [DOM的操作封装](https://github.com/appleguardu/Knowledge-Lib/blob/master/utils/dom.js)
   - BOM
     - [浏览器对象模型规范](https://www.w3school.com.cn/js/js_window.asp)
   - Web API List
