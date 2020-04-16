@@ -54,20 +54,22 @@
     - [js可调用的web api](https://developer.mozilla.org/zh-CN/docs/Web/API)
   - Ajax
     - [原生ajax文档规范](https://www.w3school.com.cn/js/js_ajax_intro.asp)
-- ES6
+- ES6+
 - NetWork
 - TypeScript
 ## 浏览器环境
 
 ## 前端框架
-- 应用层
-  - Nuxt.js应用层
-    - [vue ssr框架 nuxt介绍](https://github.com/appleguardu/Knowledge-Lib/issues/7)
-  - Vue 应用层
-    - vue使用
-    - vue-router使用
-    - vue-router注意事项
-- 源码层
+- 框架应用层理解
+  - Nuxt.js
+    - [nuxt 官方文档规范](https://zh.nuxtjs.org/guide)
+    - [vue nuxt介绍](https://github.com/appleguardu/Knowledge-Lib/issues/7)
+  - Vue.js
+    - [vue 官方文档规范](https://cn.vuejs.org/v2/guide/index.html)
+    - vue使用总结
+    - vue-router使用总结
+    - vuex使用总结
+- 框架源码层理解
 
 ## 前端工程化
 - webpack打包工具
@@ -80,10 +82,10 @@
 
 ## 跨端开发
 - PC
-- H5
+- H5 Web App
 - Hybrid App
-- Electron
 - Native App
+- Electron
 
 ## 性能优化
 
