@@ -86,6 +86,7 @@
 - Hybrid App
 - Native App
 - Electron
+- 小程序
 
 ## 性能优化
 
