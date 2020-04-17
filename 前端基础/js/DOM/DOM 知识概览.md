@@ -4,7 +4,7 @@ DOM 定义了 JS 访问和操作 HTML 文档的标准; 所有 HTML 元素（节�
 ## 关键知识点
 - DOM 节点树
 ```
-html > [head,body] > [div] > [p,span,img,a,...tags]
+document > html > [head,body] > [div] > [p,span,img,a,...tags]
 ```
 - 节点分类
 ```

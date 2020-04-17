@@ -50,10 +50,13 @@
     - [DOM的操作封装](https://github.com/appleguardu/Knowledge-Lib/blob/master/utils/dom.js)
   - BOM
     - [浏览器对象模型规范](https://www.w3school.com.cn/js/js_window.asp)
+    - [BOM 知识点概览](https://github.com/appleguardu/Knowledge-Lib/issues/33)
+    - BOM相关属性方法详解
+      - [XMLHttpRequest对象(ajax)](https://www.w3school.com.cn/js/js_ajax_intro.asp)
   - Web API
     - [js可调用的web api](https://developer.mozilla.org/zh-CN/docs/Web/API)
   - Ajax
-    - [原生ajax文档规范](https://www.w3school.com.cn/js/js_ajax_intro.asp)
+    
 - ES6+
 - NetWork
 - TypeScript
