@@ -51,7 +51,8 @@
   - BOM
     - [浏览器对象模型规范](https://www.w3school.com.cn/js/js_window.asp)
     - [BOM 知识点概览](https://github.com/appleguardu/Knowledge-Lib/issues/33)
-    - BOM相关属性方法详解
+    - BOM一些知识点详解
+      - [History对象](https://github.com/appleguardu/Knowledge-Lib/issues/34)
       - [XMLHttpRequest对象(ajax)](https://www.w3school.com.cn/js/js_ajax_intro.asp)
   - Web API
     - [js可调用的web api](https://developer.mozilla.org/zh-CN/docs/Web/API)
