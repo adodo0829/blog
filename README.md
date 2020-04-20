@@ -1,4 +1,4 @@
-# 知识体系重建
+# 知识体系Tree重建
 重学前端系列篇...  
 对日常零碎的知识进行归类总结, 逐步建立自己的认知体系...💪💪💪
 
@@ -51,11 +51,10 @@
   - BOM
     - [浏览器对象模型规范](https://www.w3school.com.cn/js/js_window.asp)
     - [BOM 知识点概览](https://github.com/appleguardu/Knowledge-Lib/issues/33)
-    - BOM相关属性方法详解
-      - [XMLHttpRequest对象(ajax)](https://www.w3school.com.cn/js/js_ajax_intro.asp)
+    - BOM一些知识点详解
+      - [XMLHttpRequest对象(Ajax)](https://www.w3school.com.cn/js/js_ajax_intro.asp)
   - Web API
     - [js可调用的web api](https://developer.mozilla.org/zh-CN/docs/Web/API)
-  - Ajax
     
 - ES6+
 - NetWork
