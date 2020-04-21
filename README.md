@@ -55,10 +55,11 @@
       - [History对象](https://github.com/appleguardu/Knowledge-Lib/issues/34)
   - Web API
     - [js可调用的web api](https://developer.mozilla.org/zh-CN/docs/Web/API)
-    
+  
+  - AJAX(B/S数据交互,请求与响应)
+    - [ajax 文档](https://www.w3school.com.cn/js/js_ajax_intro.asp)
 - ES6+(新增规范)
-- NetWork(B/S通信)
-  - [XMLHttpRequest对象(ajax)](https://www.w3school.com.cn/js/js_ajax_intro.asp)
+
 - TypeScript
 ## 浏览器环境
 
@@ -67,7 +68,7 @@
   - Nuxt.js
     - [nuxt 官方文档规范](https://zh.nuxtjs.org/guide)
     - [vue nuxt介绍](https://github.com/appleguardu/Knowledge-Lib/issues/7)
-  - Vue.js
+  - Vue.js(2.0+)
     - [vue 官方文档规范](https://cn.vuejs.org/v2/guide/index.html)
     - vue使用总结
     - vue-router使用总结
@@ -109,5 +110,8 @@
   - [nginx 设置虚拟主机&反向代理](https://github.com/appleguardu/Knowledge-Lib/issues/4)
   - [nginx 适配PC或移动设备](https://github.com/appleguardu/Knowledge-Lib/issues/5)
 
+## 计算机基础
+- [计算机基础概览](https://github.com/appleguardu/Knowledge-Lib/issues/35)
+- [计算机一些重要术语](https://github.com/appleguardu/Knowledge-Lib/issues/36)
 ## 技术之外
 - [谈谈个人的学习方法](https://github.com/appleguardu/Knowledge-Lib/issues/25)
