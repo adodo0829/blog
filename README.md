@@ -63,6 +63,7 @@
 ## 浏览器环境
 - [浏览器架构概览](https://github.com/appleguardu/Knowledge-Lib/issues/37)
 - [前端网络知识概览](https://github.com/appleguardu/Knowledge-Lib/issues/38)
+- [浏览器工作流程](https://github.com/appleguardu/Knowledge-Lib/issues/39)
 ## 前端框架
 - 框架应用层理解
   - Nuxt.js
