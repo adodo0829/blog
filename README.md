@@ -55,7 +55,6 @@
       - [History对象](https://github.com/appleguardu/Knowledge-Lib/issues/34)
   - Web API
     - [js可调用的web api](https://developer.mozilla.org/zh-CN/docs/Web/API)
-  
   - AJAX(B/S数据交互,请求与响应)
     - [ajax 文档](https://www.w3school.com.cn/js/js_ajax_intro.asp)
 - ES6+(新增规范)
@@ -63,7 +62,7 @@
 - TypeScript
 ## 浏览器环境
 - [浏览器架构概览](https://github.com/appleguardu/Knowledge-Lib/issues/37)
-
+- [浏览器网络(了解)](https://github.com/appleguardu/Knowledge-Lib/issues/38)
 ## 前端框架
 - 框架应用层理解
   - Nuxt.js
@@ -114,5 +113,6 @@
 ## 计算机基础
 - [计算机基础概览](https://github.com/appleguardu/Knowledge-Lib/issues/35)
 - [计算机一些重要术语](https://github.com/appleguardu/Knowledge-Lib/issues/36)
+  
 ## 技术之外
 - [谈谈个人的学习方法](https://github.com/appleguardu/Knowledge-Lib/issues/25)
