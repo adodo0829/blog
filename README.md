@@ -64,7 +64,7 @@
 - [浏览器架构概览](https://github.com/appleguardu/Knowledge-Lib/issues/37)
 - [前端网络知识概览](https://github.com/appleguardu/Knowledge-Lib/issues/38)
 - [浏览器&渲染引擎工作流](https://github.com/appleguardu/Knowledge-Lib/issues/39)
-- [浏览器之JS引擎工作流&事件循环机制](https://github.com/appleguardu/Knowledge-Lib/issues/39)
+- [浏览器之JS引擎工作流&事件循环机制](https://github.com/appleguardu/Knowledge-Lib/issues/40)
 ## 前端框架
 - 框架应用层理解
   - Nuxt.js
