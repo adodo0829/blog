@@ -82,6 +82,8 @@
 ## 前端工程化
 - webpack打包工具
   - [模块化规范概览](https://github.com/appleguardu/Knowledge-Lib/issues/26)
+  - [webpack 官网文档](https://www.webpackjs.com/guides/installation/)
+  - [webpack 使用总结](https://github.com/appleguardu/webpack-learning/blob/master/README.md)
 - ci/cd持续集成
 - lint代码规范管理
 - unit-test单元测试
