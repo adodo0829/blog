@@ -67,6 +67,7 @@
 - [浏览器&渲染引擎工作流](https://github.com/appleguardu/Knowledge-Lib/issues/39)
 - [浏览器之JS引擎工作流&事件循环机制](https://github.com/appleguardu/Knowledge-Lib/issues/40)
 - [浏览器环境下的微任务Promise](https://github.com/appleguardu/Knowledge-Lib/issues/41)
+- [浏览器安全相关知识](https://github.com/appleguardu/Knowledge-Lib/issues/42)
 ## 前端框架
 - 框架应用层理解
   - Nuxt.js
@@ -77,7 +78,7 @@
     - vue使用总结
     - vue-router使用总结
     - vuex使用总结
-   - React.js
+  - React.js
     - [react 官方文档](https://zh-hans.reactjs.org/docs/getting-started.html)
 - 框架源码层理解
 
@@ -91,7 +92,8 @@
 - unit-test单元测试
 - git代码版本管理
 - 脚本工具
-
+- 日常问题记录
+  - [vue 项目](https://github.com/appleguardu/Knowledge-Lib/blob/master/%E6%97%A5%E5%B8%B8%E5%BC%80%E5%8F%91%E9%97%AE%E9%A2%98%E7%A7%AF%E7%B4%AF/vue%E9%A1%B9%E7%9B%AE.md)
 ## 跨端开发
 - PC
 - H5 Web App
