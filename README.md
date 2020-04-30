@@ -81,6 +81,8 @@
   - React.js
     - [react 官方文档](https://zh-hans.reactjs.org/docs/getting-started.html)
 - 框架源码层理解
+  - Vue
+    - [nextTick源码理解](https://github.com/appleguardu/Knowledge-Lib/issues/46)
 
 ## 前端工程化
 - webpack打包工具
@@ -107,7 +109,7 @@
   - [从浏览器一次网络请求流程中找寻优化手段](https://github.com/appleguardu/Knowledge-Lib/issues/43)
   - [性能优化(网络方向)](https://github.com/appleguardu/Knowledge-Lib/issues/44)
   - [性能优化(存储方向)](https://github.com/appleguardu/Knowledge-Lib/issues/45)
-  - 渲染方向
+  - [性能优化(渲染方向)](https://github.com/appleguardu/Knowledge-Lib/issues/47)
 ## 数据结构与算法
 
 ## 后端基础
