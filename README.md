@@ -59,8 +59,9 @@
   - AJAX(B/S数据交互,请求与响应)
     - [ajax 文档](https://www.w3school.com.cn/js/js_ajax_intro.asp)
 - ES6+(新增规范)
-
+  - [ECMAScript 6 入门教程](https://es6.ruanyifeng.com/#README)
 - TypeScript
+
 ## 浏览器环境
 - [浏览器架构概览](https://github.com/appleguardu/Knowledge-Lib/issues/37)
 - [前端网络知识概览](https://github.com/appleguardu/Knowledge-Lib/issues/38)
