@@ -60,6 +60,7 @@
     - [ajax 文档](https://www.w3school.com.cn/js/js_ajax_intro.asp)
 - ES6+(新增规范)
   - [ECMAScript 6 入门教程](https://es6.ruanyifeng.com/#README)
+  - [1.变量,解构赋值](https://github.com/appleguardu/Knowledge-Lib/issues/48)
 - TypeScript
 
 ## 浏览器环境
