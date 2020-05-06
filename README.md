@@ -104,8 +104,8 @@
 - git代码版本管理
 - 脚本工具
 - 日常问题记录
-  - [vue问题](https://github.com/appleguardu/Knowledge-Lib/blob/master/%E6%97%A5%E5%B8%B8%E5%BC%80%E5%8F%91%E9%97%AE%E9%A2%98%E7%A7%AF%E7%B4%AF/vue%E9%A1%B9%E7%9B%AE.md)
-  - [兼容性问题]()
+  - [vue问题](https://github.com/appleguardu/Knowledge-Lib/blob/master/%E6%97%A5%E5%B8%B8%E5%BC%80%E5%8F%91%E9%97%AE%E9%A2%98%E7%A7%AF%E7%B4%AF/vue_project.md)
+  - [兼容性问题](https://github.com/appleguardu/Knowledge-Lib/blob/master/%E6%97%A5%E5%B8%B8%E5%BC%80%E5%8F%91%E9%97%AE%E9%A2%98%E7%A7%AF%E7%B4%AF/browser_compatibility.md)
 ## 跨端开发
 - PC
 - H5 Web App
