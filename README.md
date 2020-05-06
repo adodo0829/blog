@@ -66,6 +66,7 @@
     - [Set,WeakSet & Map,WeakMap结构](https://github.com/appleguardu/Knowledge-Lib/issues/51)
     - [Proxy对象代理 & Reflect对象操作](https://github.com/appleguardu/Knowledge-Lib/issues/52)
     - [Class 类式声明](https://github.com/appleguardu/Knowledge-Lib/issues/53)
+    - [ES Module 模块加载规范](https://github.com/appleguardu/Knowledge-Lib/issues/54)
 - TypeScript
 
 ## 浏览器环境
