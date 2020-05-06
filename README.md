@@ -65,6 +65,7 @@
     - [引用类型的扩展](https://github.com/appleguardu/Knowledge-Lib/issues/50)
     - [Set,WeakSet & Map,WeakMap结构](https://github.com/appleguardu/Knowledge-Lib/issues/51)
     - [Proxy对象代理 & Reflect对象操作](https://github.com/appleguardu/Knowledge-Lib/issues/52)
+    - [Class 类式声明](https://github.com/appleguardu/Knowledge-Lib/issues/53)
 - TypeScript
 
 ## 浏览器环境
