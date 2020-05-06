@@ -130,6 +130,7 @@
   
 - Python
   - [Python文档参考](https://docs.pythontab.com/python/python3.4/index.html)
+  - [python学习总结](https://appleguardu.github.io/categories/python%E5%9F%BA%E7%A1%80/)
 ## 运维部署&服务器
 - Linux  
   - [linux 系统常用命令](https://github.com/appleguardu/Knowledge-Lib/issues/1)
