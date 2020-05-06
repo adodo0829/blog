@@ -68,6 +68,7 @@
     - [Class 类式声明](https://github.com/appleguardu/Knowledge-Lib/issues/53)
     - [ES Module 模块加载规范](https://github.com/appleguardu/Knowledge-Lib/issues/54)
 - TypeScript
+  - [TypeScript文档规范](https://www.tslang.cn/docs/home.html)
 
 ## 浏览器环境
 - [浏览器架构概览](https://github.com/appleguardu/Knowledge-Lib/issues/37)
@@ -103,7 +104,8 @@
 - git代码版本管理
 - 脚本工具
 - 日常问题记录
-  - [vue 项目](https://github.com/appleguardu/Knowledge-Lib/blob/master/%E6%97%A5%E5%B8%B8%E5%BC%80%E5%8F%91%E9%97%AE%E9%A2%98%E7%A7%AF%E7%B4%AF/vue%E9%A1%B9%E7%9B%AE.md)
+  - [vue问题](https://github.com/appleguardu/Knowledge-Lib/blob/master/%E6%97%A5%E5%B8%B8%E5%BC%80%E5%8F%91%E9%97%AE%E9%A2%98%E7%A7%AF%E7%B4%AF/vue%E9%A1%B9%E7%9B%AE.md)
+  - [兼容性问题]()
 ## 跨端开发
 - PC
 - H5 Web App
@@ -122,8 +124,12 @@
 
 ## 后端基础
 - Node
+  - [Node文档规范](http://nodejs.cn/api/)
+  - [Express文档](http://expressjs.com/)
+  - [Koa文档](https://github.com/koajs/koa/blob/master/docs/guide.md)
+  
 - Python
-
+  - [Python文档参考](https://docs.pythontab.com/python/python3.4/index.html)
 ## 运维部署&服务器
 - Linux  
   - [linux 系统常用命令](https://github.com/appleguardu/Knowledge-Lib/issues/1)
