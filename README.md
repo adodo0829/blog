@@ -67,6 +67,7 @@
     - [Proxy对象代理 & Reflect对象操作](https://github.com/appleguardu/Knowledge-Lib/issues/52)
     - [Class 类式声明](https://github.com/appleguardu/Knowledge-Lib/issues/53)
     - [ES Module 模块加载规范](https://github.com/appleguardu/Knowledge-Lib/issues/54)
+    - [Generator生成器函数](https://segmentfault.com/a/1190000018574554)
 - TypeScript
   - [TypeScript文档规范](https://www.tslang.cn/docs/home.html)
 
