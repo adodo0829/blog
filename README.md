@@ -104,6 +104,7 @@
 - lint代码规范管理
   - [团队代码规范](https://github.com/appleguardu/team-startand-build/blob/master/README.md)
 - unit-test单元测试
+  - [Jest单元测试应用](https://github.com/appleguardu/Knowledge-Lib/issues/56)
 - git代码版本管理
 - 脚本工具
 - 日常问题记录
