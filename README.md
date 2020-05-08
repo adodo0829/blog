@@ -106,10 +106,14 @@
 - unit-test单元测试
   - [Jest单元测试应用](https://github.com/appleguardu/Knowledge-Lib/issues/56)
 - git代码版本管理
+  - [git操作常识](https://github.com/appleguardu/Knowledge-Lib/issues/57)
+  - [git rebase操作](https://github.com/appleguardu/Knowledge-Lib/issues/58)
 - 脚本工具
 - 日常问题记录
   - [vue问题](https://github.com/appleguardu/Knowledge-Lib/blob/master/%E6%97%A5%E5%B8%B8%E5%BC%80%E5%8F%91%E9%97%AE%E9%A2%98%E7%A7%AF%E7%B4%AF/vue_project.md)
   - [兼容性问题](https://github.com/appleguardu/Knowledge-Lib/blob/master/%E6%97%A5%E5%B8%B8%E5%BC%80%E5%8F%91%E9%97%AE%E9%A2%98%E7%A7%AF%E7%B4%AF/browser_compatibility.md)
+
+
 ## 跨端开发
 - PC
 - H5 Web App
@@ -124,6 +128,8 @@
   - [性能优化(网络方向)](https://github.com/appleguardu/Knowledge-Lib/issues/44)
   - [性能优化(存储方向)](https://github.com/appleguardu/Knowledge-Lib/issues/45)
   - [性能优化(渲染方向)](https://github.com/appleguardu/Knowledge-Lib/issues/47)
+
+
 ## 数据结构与算法
 
 ## 后端基础
@@ -135,6 +141,8 @@
 - Python
   - [Python文档参考](https://docs.pythontab.com/python/python3.4/index.html)
   - [python学习总结](https://appleguardu.github.io/categories/python%E5%9F%BA%E7%A1%80/)
+
+
 ## 运维部署&服务器
 - Linux  
   - [linux 系统常用命令](https://github.com/appleguardu/Knowledge-Lib/issues/1)

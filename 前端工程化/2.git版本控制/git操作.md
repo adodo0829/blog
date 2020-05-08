@@ -369,7 +369,7 @@ git checkout v1.1.0
 git show v1.1.0
 ```
 
-## Rebase
+## Rebase(变基)
 git rebase 主要作用可以将多个commit记录合并为一条, 保证提交历史是线性的;
 多次的 commit 记录会导致历史记录混乱, 在进行版本回退的时候不方便...
 ```shell
