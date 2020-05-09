@@ -71,6 +71,7 @@
 - TypeScript
   - [TypeScript文档规范](https://www.tslang.cn/docs/home.html)
   - [TypeScript笔记小结](https://github.com/appleguardu/Knowledge-Lib/issues/61)
+  - [interface&type](https://github.com/appleguardu/Knowledge-Lib/blob/master/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/ts/interface%26type.ts)
 
 ## 浏览器环境
 - [浏览器架构概览](https://github.com/appleguardu/Knowledge-Lib/issues/37)
