@@ -84,7 +84,7 @@
 - 框架应用层理解
   - Nuxt.js
     - [nuxt 官方文档规范](https://zh.nuxtjs.org/guide)
-    - [vue nuxt介绍](https://github.com/appleguardu/Knowledge-Lib/issues/7)
+    - [vue nuxt使用](https://github.com/appleguardu/Knowledge-Lib/issues/7)
   - Vue.js(2.0+)
     - [vue 官方文档规范](https://cn.vuejs.org/v2/guide/index.html)
     - [vue 基本使用](https://github.com/appleguardu/Knowledge-Lib/issues/59)
