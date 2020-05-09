@@ -107,7 +107,6 @@
   - [Jest单元测试应用](https://github.com/appleguardu/Knowledge-Lib/issues/56)
 - git代码版本管理
   - [git操作常识](https://github.com/appleguardu/Knowledge-Lib/issues/57)
-  - [git rebase操作](https://github.com/appleguardu/Knowledge-Lib/issues/58)
 - 脚本工具
 - 日常问题记录
   - [vue问题](https://github.com/appleguardu/Knowledge-Lib/blob/master/%E6%97%A5%E5%B8%B8%E5%BC%80%E5%8F%91%E9%97%AE%E9%A2%98%E7%A7%AF%E7%B4%AF/vue_project.md)
