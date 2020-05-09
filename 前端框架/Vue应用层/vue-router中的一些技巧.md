@@ -1,4 +1,4 @@
-# vue-router 踩坑
+# vue-router 常用技巧
 
 ## 使用导航守卫beforeEach时堆栈溢出
 - next() 表示路由成功，直接进入to路由，不会再次调用router.beforeEach()

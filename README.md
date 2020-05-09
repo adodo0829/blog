@@ -78,6 +78,8 @@
 - [浏览器之JS引擎工作流&事件循环机制](https://github.com/appleguardu/Knowledge-Lib/issues/40)
 - [浏览器环境下的微任务Promise](https://github.com/appleguardu/Knowledge-Lib/issues/41)
 - [浏览器安全相关知识](https://github.com/appleguardu/Knowledge-Lib/issues/42)
+
+
 ## 前端框架
 - 框架应用层理解
   - Nuxt.js
@@ -85,9 +87,12 @@
     - [vue nuxt介绍](https://github.com/appleguardu/Knowledge-Lib/issues/7)
   - Vue.js(2.0+)
     - [vue 官方文档规范](https://cn.vuejs.org/v2/guide/index.html)
-    - vue使用总结
-    - vue-router使用总结
-    - vuex使用总结
+    - [vue 基本使用](https://github.com/appleguardu/Knowledge-Lib/issues/59)
+    - [vue 中的一些技巧总结](https://github.com/appleguardu/Knowledge-Lib/issues/60)
+    - vue 周边生态
+      - [vue-router](https://router.vuejs.org/zh/)
+      - [vuex](https://vuex.vuejs.org/zh/)
+      - [vue 常用插件集合](https://github.com/appleguardu/Knowledge-Lib/issues/61)
   - React.js
     - [react 官方文档](https://zh-hans.reactjs.org/docs/getting-started.html)
 - 框架源码层理解
