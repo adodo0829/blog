@@ -70,6 +70,7 @@
     - [Generator生成器函数](https://segmentfault.com/a/1190000018574554)
 - TypeScript
   - [TypeScript文档规范](https://www.tslang.cn/docs/home.html)
+  - [TypeScript笔记小结](https://github.com/appleguardu/Knowledge-Lib/issues/61)
 
 ## 浏览器环境
 - [浏览器架构概览](https://github.com/appleguardu/Knowledge-Lib/issues/37)
