@@ -108,3 +108,75 @@ export const pluginHttp = {
 import { pluginHttp } from '@/api/http'
 Vue.use(pluginHttp)
 ```
+
+#### 插槽(slot组件)
+当组件被多个地方使用
+- 每个父组件中对该组件的内部有一部分需要特殊定制
+- slot可以让我们更好的复用组件的同时并对其定制化处理
+- 可以理解为`父组件`向`子组件`传递了一段 vnode
+
+- 1.普通插槽 slot
+```html
+<!-- 父组件引用: 负责分发插槽内容, 存活周期在父组件下 -->
+<!-- 父组件获取子组件可以通过 this.$refs.child 来做操作 -->
+<child ref=child>
+    我是父组件分发给 child 的所有内容
+</child>
+
+<!-- 子组件: child -->
+<template>
+    <slot>这里可以放一些默认值</slot>
+</template>
+```
+- 2.具名插槽 子组件通过 name 属性 来匹配父组件分发的内容
+```html
+<!-- 父组件: 添加 slot 属性来作为标识 -->
+<div slot="header">我是 header 分发的内容 111</div>
+<div slot="main">我是 main 分发的内容222</div>
+<div slot="footer">我是 footer 分发的内容333</div>
+
+<!-- 在2.6.0 以上使用的是 v-slot:header; 默认插槽为: v-slot:default -->
+
+<!-- 子组件child: slot 组件来标识 -->
+<template>
+    <slot name="header"></slot>
+    <slot name="main"></slot>
+    <slot name="footer"></slot>
+</template>
+```
+- 3.作用域插槽 父组件可以接收来自子组件的 slot 传递过来的参数值
+```html
+<!-- 可以理解为: 子组件中的作用域插槽可以为父组件中的插槽的展示提供数据 -->
+<!-- 存活周期在子组件内 -->
+<!-- 子组件: -->
+<template>
+    <div>
+        <slot name="header" :value="value"></slot>
+    </div>
+</template>
+<script>
+    export default {
+        data() {
+            return {
+                value: '我是子组件的值'
+            }
+        }
+    }
+</script>
+
+<!-- 父组件: -->
+<child>
+    <template slot="header" slot-scope="slotHeaderProps">
+        渲染子组件传过来的对象中value值{{ slotHeaderProps.value }}
+    </template>
+</child>
+
+<!-- 在 2.6 以上绑定值的方式: v-slot:header="slotHeaderProps"
+     而且可以使用解构 v-slot:header="{value}", 将子组件传过来的值解构 -->
+
+<!-- 还有就是, 我们可以把 slot直接写在子组件行内, 不必另起一个 template
+即这样: <child v-slot:header="{value}">{{value}}</child> -->
+```
+vue3.0以后 slot 和 slot="xxx",slot-scope 的方式会被废弃...
+新的用法slot, v-slot:xxx || v-slot:default, v-slot:xxx="slotProps"
+简写: v-slot:header 可以被重写为 #header
