@@ -94,15 +94,13 @@ OStack.push('js')
 
 console.log(OStack.size()); // 3
 console.log(OStack.pop())   // js
+console.log(OStack);
 // OStack类是基于原型的, 其属性是可以修改的, 但作为基础类的操作我们是不允许的
 // 所以需要对类的内部私有属性和方法进行保护
 // 但是 js 内部并未提供这种特性(不过可以模拟: _变量, symbol, WeakMap)...
 // 引入ts的特性可以在编写的时候实现 private私有属性
 class Stack {
-  private id = 0
-  private list = Object.create(null)
+  // private id = 0
+  // private list = Object.create(null)
   // ...
 }
-
-
-
