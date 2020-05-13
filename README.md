@@ -144,6 +144,7 @@
 - 数据结构
   - [栈](https://github.com/appleguardu/Knowledge-Lib/issues/64)
   - [队列&双端队列](https://github.com/appleguardu/Knowledge-Lib/issues/65)
+  - [链表](https://github.com/appleguardu/Knowledge-Lib/issues/67)
 
 ## 后端基础
 - Node
