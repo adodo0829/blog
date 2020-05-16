@@ -167,6 +167,7 @@
   - [nginx 指令及错误页配置](https://github.com/appleguardu/Knowledge-Lib/issues/3)
   - [nginx 设置虚拟主机&反向代理](https://github.com/appleguardu/Knowledge-Lib/issues/4)
   - [nginx 适配PC或移动设备](https://github.com/appleguardu/Knowledge-Lib/issues/5)
+  - [Nginx 详细资料](https://juejin.im/post/5ea931866fb9a043815146fb#heading-30))
 
 ## 计算机基础
 - [计算机基础概览](https://github.com/appleguardu/Knowledge-Lib/issues/35)
