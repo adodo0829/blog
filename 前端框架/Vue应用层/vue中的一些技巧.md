@@ -12,9 +12,9 @@ export default {
   mixins: [mixinObj]
 }
 // 合并策略: 同名属性 & 非同名
-/* data 数据: 同名字段组件优先
+/* data 数据: 同名字段 组件内部优先
  * 生命周期钩子: 合并为数组, mixin优先调用
- * methods对象: 同名字段组件优先
+ * methods对象: 同名字段 组件内部优先
  * /
 ```
 #### 自定义指令(directive对象)
@@ -26,7 +26,7 @@ export default {
 import { DirectiveOptions } from 'vue'
 
 export const throttle: DirectiveOptions = {
-  // bind钩子,第一次绑定到元素时调用
+  // bind钩子 → 第一次绑定到元素时调用
   bind: (el, binding) => {
     // value: support 200, 400, ...2000ms, defalut 2s
     let time = binding.value as number
@@ -56,6 +56,39 @@ import * as directives from '@/directives'
 // Register global directives
 Object.keys(directives).forEach(key => {
   Vue.directive(key, (directives as { [key: string]: DirectiveOptions })[key])
+})
+```
+- about permission
+```js
+export function checkJurisdiction(key) {
+    // 权限数组
+    let jurisdictionList = ['1', '2', '3', '5']
+    let index = jurisdictionList.indexOf(key)
+    console.log('index:',index)
+    if (index > -1) {
+        // 有权限
+        return true
+    } else {
+        // 无权限
+        return false
+    }
+}
+
+Vue.directive('permission',{
+  inserted(el, binding){
+    // inserted → 元素插入的时候
+    let permission = binding.value // 获取到 v-permission的值
+
+    if(permission){
+      let hasPermission = checkJurisdiction(permission)
+      if(!hasPermission){
+        // 没有权限 移除Dom元素
+        el.parentNode && el.parentNode.removeChild(el)
+      }
+    }else{
+      throw new Error('需要传key')
+    }
+  }
 })
 ```
 
@@ -180,3 +213,130 @@ Vue.use(pluginHttp)
 vue3.0以后 slot 和 slot="xxx",slot-scope 的方式会被废弃...
 新的用法slot, v-slot:xxx || v-slot:default, v-slot:xxx="slotProps"
 简写: v-slot:header 可以被重写为 #header
+
+#### 函数组件(render函数应用)
+简化 template 模板代码
+```html
+<!-- 函数组件 -->
+<script>
+export default {
+    props:{
+        type:{
+            type:String,
+            default:'normal'
+        },
+        text:{
+            type:String,
+            default:'按钮'
+        }
+    },
+    render(h){
+        /*
+            h 类似于 createElement， 接受2个参数
+            1 - 元素
+            2 - 选项
+         */
+        return h('button',{
+            // 相当于 v-bind:class
+            class: {
+                btn:true,
+                'btn-success':this.type === 'success',
+                'btn-danger':this.type === 'danger',
+                'btn-warning':this.type === 'warning',
+                'btn-normal':this.type === 'normal',
+            },
+            domProps:{
+                innerText: this.text || '默认'
+            },
+            on:{
+                click:this.handleClick
+            }
+        })
+    },
+    methods:{
+        handleClick(){
+            this.$emit('myClick')
+        }
+    }
+}
+</script>
+
+<style scoped>
+.btn{
+    width: 100px;
+    height:40px;
+    line-height:40px;
+    border:0px;
+    border-radius:5px;
+    color:#ffff;
+}
+.btn-success{
+    background:#2ecc71;
+}
+.btn-danger{
+    background:#e74c3c;
+}
+.btn-warning{
+    background:#f39c12;
+}
+.btn-normal{
+    background:#bdc3c7;
+}
+</style>
+```
+- 使用
+```html
+<Button type='success' text='button1' @myClick='handleClick'></Button>
+```
+#### 全局组件批量注册
+```js
+import Vue from 'vue'
+/**
+ * 读取 componetns/base 下的vue文件并自动注册全局组件
+ * require.context(arg1, arg2, arg3)应用
+ * arg1 - 读取文件的路径
+ * arg2 - 是否遍历文件的子目录
+ * arg3 - 匹配文件的正则
+ */
+
+// 返回一个模块对象
+const requireComponent = require.context('../components/base', false, /\.vue$/)
+
+requireComponent.keys().forEach(fileName => {
+  const componentConfig = requireComponent(fileName)
+  const componentName = fileName.replace(/^\.\//, '').replace(/\.vue/, '')
+
+  Vue.component(componentName, componentConfig.default || componentConfig)
+})
+```
+
+## 路由技巧
+
+#### router 分模块管理
+将不同模块的路由文件单独定义 module1.ts, module2.ts等...
+```js
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+
+Vue.use(VueRouter)
+
+const routerList = []  // 路由数组 - 存放所有路由
+function importAll(routerModule){
+    // 该函数用于将所有分区路由中的路由添加到路由数组
+    routerModule.keys().forEach( key => {
+        console.log(key)
+        routerList.push(routerModule(key).default)
+    })
+}
+importAll(require.context('./moudles', true, /\.ts/))
+
+const routes = [
+    ...routerList
+]
+
+const router = new VueRouter({
+    routes
+})
+
+export default router
+```

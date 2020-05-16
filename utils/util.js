@@ -95,3 +95,31 @@ function findComponentDownward (context, componentName) {
   }
   return children;
 }
+
+export function deepCopy(obj: any, hash = new WeakMap()) {
+  if (hash.has(obj)) return hash.get(obj)
+  let cloneObj = Array.isArray(obj) ? [] : {} as any
+  hash.set(obj, cloneObj)
+  for (let key in obj) {
+    cloneObj[key] = isObj(obj[key]) ? deepCopy(obj[key], hash) : obj[key]
+  }
+  return cloneObj
+}
+
+// return a padding function, padNum: int
+export function getPadFunc(padNum: number): Function {
+  return function(targetNum: number): string {
+    if (typeof targetNum === 'undefined') return '0.' + repeatString(padNum, '0')
+    let floatNum = Math.round(targetNum * 10 * padNum) / (10 * padNum)
+    let s = floatNum.toString()
+    let rs = s.indexOf('.')
+    if (rs < 0) {
+      rs = s.length
+      s += '.'
+    }
+    while (s.length <= rs + padNum) {
+      s += '0'
+    }
+    return s
+  }
+}
