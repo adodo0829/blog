@@ -150,6 +150,7 @@
 ## 后端基础
 - Node
   - [Node文档规范](http://nodejs.cn/api/)
+    - [模块系统 module](http://nodejs.cn/api/modules.html#modules_modules)
   - [Express文档](http://expressjs.com/)
   - [Koa文档](https://github.com/koajs/koa/blob/master/docs/guide.md)
   
