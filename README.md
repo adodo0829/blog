@@ -102,6 +102,7 @@
     - [react 官方文档](https://zh-hans.reactjs.org/docs/getting-started.html)
 - 框架源码层理解
   - Vue
+    - [vue.js逐行注释](https://github.com/appleguardu/Knowledge-Lib/blob/master/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/Vue%E6%BA%90%E7%A0%81%E5%B1%82/vue%E6%BA%90%E7%A0%81%E6%B3%A8%E9%87%8A.js)
     - [nextTick源码理解](https://github.com/appleguardu/Knowledge-Lib/issues/46)
 
 ## 前端工程化
