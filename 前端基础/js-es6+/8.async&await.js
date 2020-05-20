@@ -212,6 +212,7 @@ async function async1() {
 
 new Promise((resolve) => {
   resolve(thenable);
+  // thenable会先被放到队列里
 });
 
 // 等价于 ==>
