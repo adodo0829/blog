@@ -69,6 +69,7 @@
     - [Class 类式声明](https://github.com/appleguardu/Knowledge-Lib/issues/53)
     - [ES Module 模块加载规范](https://github.com/appleguardu/Knowledge-Lib/issues/54)
     - [Generator生成器函数](https://segmentfault.com/a/1190000018574554)
+    - [async + await](https://github.com/appleguardu/blog/blob/master/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/js-es6%2B/8.async%26await.js)
 - TypeScript
   - [TypeScript文档规范](https://www.tslang.cn/docs/home.html)
   - [TypeScript笔记小结](https://github.com/appleguardu/Knowledge-Lib/issues/61)
