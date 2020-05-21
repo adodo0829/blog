@@ -104,13 +104,15 @@
 - 框架源码层理解
   - Vue
     - [vue.js源码逐行注释](https://github.com/appleguardu/Knowledge-Lib/blob/master/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/Vue%E6%BA%90%E7%A0%81%E5%B1%82/vue%E6%BA%90%E7%A0%81%E6%B3%A8%E9%87%8A.js)
-    - [vm.$nextTick干了啥?](https://github.com/appleguardu/Knowledge-Lib/issues/46)
+    - [关于new Vue()](https://github.com/appleguardu/Knowledge-Lib/issues/70)
+    - [关于nextTick](https://github.com/appleguardu/Knowledge-Lib/issues/46)
 
 ## 前端工程化
 - webpack打包工具
   - [模块化规范概览](https://github.com/appleguardu/Knowledge-Lib/issues/26)
-  - [webpack 官网文档](https://www.webpackjs.com/guides/installation/)
-  - [webpack 使用总结](https://github.com/appleguardu/webpack-learning/blob/master/README.md)
+  - [webpack文档](https://www.webpackjs.com/guides/installation/)
+  - [webpack 知识小结](https://github.com/appleguardu/Knowledge-Lib/issues/71)
+  - [webpack 使用小结](https://github.com/appleguardu/webpack-learning/blob/master/README.md)
 - ci/cd持续集成
   - [搭建前端自动集成环境](https://github.com/appleguardu/Knowledge-Lib/issues/55)
 - lint代码规范管理
