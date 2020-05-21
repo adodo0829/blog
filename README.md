@@ -105,6 +105,7 @@
   - Vue
     - [vue.js源码逐行注释](https://github.com/appleguardu/Knowledge-Lib/blob/master/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/Vue%E6%BA%90%E7%A0%81%E5%B1%82/vue%E6%BA%90%E7%A0%81%E6%B3%A8%E9%87%8A.js)
     - [new Vue()过程梳理](https://github.com/appleguardu/Knowledge-Lib/issues/70)
+    - [数据响应式原理梳理](https://github.com/appleguardu/Knowledge-Lib/issues/71)
     - [关于nextTick方法](https://github.com/appleguardu/Knowledge-Lib/issues/46)
 
 ## 前端工程化
