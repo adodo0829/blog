@@ -112,8 +112,8 @@
 - webpack打包工具
   - [模块化规范概览](https://github.com/appleguardu/Knowledge-Lib/issues/26)
   - [webpack文档](https://www.webpackjs.com/guides/installation/)
-  - [webpack 知识小结](https://github.com/appleguardu/Knowledge-Lib/issues/71)
-  - [webpack 使用小结](https://github.com/appleguardu/webpack-learning/blob/master/README.md)
+  - [webpack 知识小结](https://github.com/appleguardu/Knowledge-Lib/issues/72)
+  - [webpack 使用](https://github.com/appleguardu/webpack-learning/blob/master/README.md)
 - ci/cd持续集成
   - [搭建前端自动集成环境](https://github.com/appleguardu/Knowledge-Lib/issues/55)
 - lint代码规范管理
