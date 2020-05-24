@@ -148,11 +148,13 @@
 
 
 ## 数据结构与算法
-- 数据结构
+- 数据结构(数据存储容器)
   - [栈](https://github.com/appleguardu/Knowledge-Lib/issues/64)
   - [队列&双端队列](https://github.com/appleguardu/Knowledge-Lib/issues/65)
   - [链表](https://github.com/appleguardu/Knowledge-Lib/issues/67)
-- 算法思想
+- 算法思想(空间与时间轮转)
+  - 排序
+  - 搜索
 
 ## 后端基础
 - Node
