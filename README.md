@@ -153,8 +153,8 @@
   - [队列&双端队列](https://github.com/appleguardu/Knowledge-Lib/issues/65)
   - [链表](https://github.com/appleguardu/Knowledge-Lib/issues/67)
 - 算法思想(空间与时间轮转)
-  - 排序
-  - 搜索
+  - [排序](https://github.com/appleguardu/blog/issues/74)
+  - [搜索](https://github.com/appleguardu/blog/issues/75)
 
 ## 后端基础
 - Node
