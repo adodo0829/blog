@@ -152,7 +152,7 @@ console.log('mergeSort:', mergeSort(testArr));
  * 2.所有小于"基准"的元素,都移到"基准"的左边;所有大于"基准"的元素,都移到"基准"的右边
  * 3.对"基准"左边和右边的两个子集,不断重复第一步和第二步,直到所有子集只剩下一个元素为止。
  */
-function quickSort(arr) {
+export function quickSort(arr) {
   if (arr.length <= 1) return arr; // 终止条件
 
   let left = []
