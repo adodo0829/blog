@@ -104,7 +104,7 @@
 - 框架源码层理解
   - Vue
     - [vue.js源码逐行注释](https://github.com/appleguardu/Knowledge-Lib/blob/master/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/Vue%E6%BA%90%E7%A0%81%E5%B1%82/vue%E6%BA%90%E7%A0%81%E6%B3%A8%E9%87%8A.js)
-    - [why MVVM](https://github.com/appleguardu/blog/blob/master/interview/3.%E6%A1%86%E6%9E%B6/1.MVVM%20%E6%A1%86%E6%9E%B6%E7%90%86%E8%A7%A3.md)
+    - [why MVVM](https://github.com/appleguardu/blog/issues/76)
     - [new Vue()过程梳理](https://github.com/appleguardu/Knowledge-Lib/issues/70)
     - [数据响应式原理梳理](https://github.com/appleguardu/Knowledge-Lib/issues/71)
     - [patch过程中的diff规则梳理](https://github.com/appleguardu/Knowledge-Lib/issues/73)
