@@ -159,9 +159,8 @@
 ## 后端基础
 - Node
   - [Node文档规范](http://nodejs.cn/api/)
-  - Node 知识点小结
-    - [模块系统 module](http://nodejs.cn/api/modules.html#modules_modules)
-  - Node 生态
+  - Node读书笔记
+  - Node Web 框架
     - [Express文档](http://expressjs.com/)
     - [Koa文档](https://github.com/koajs/koa/blob/master/docs/guide.md)
   
@@ -173,7 +172,7 @@
 ## 运维部署&服务器
 - Linux  
   - [linux 系统常用命令](https://github.com/appleguardu/Knowledge-Lib/issues/1)
-  - [Linux进程可视化监控工具:Htop](https://github.com/appleguardu/blog/issues/77)
+  - [linux进程可视化监控工具:Htop](https://github.com/appleguardu/blog/issues/77)
   - [shell 脚本命令](https://github.com/appleguardu/Knowledge-Lib/issues/6)
   - [fronter 常用命令](https://github.com/appleguardu/Knowledge-Lib/blob/master/%E8%BF%90%E7%BB%B4%E9%83%A8%E7%BD%B2%26%E6%9C%8D%E5%8A%A1%E5%99%A8/Linux/fronter.md)
 - Nginx  
@@ -182,7 +181,9 @@
   - [nginx 设置虚拟主机&反向代理](https://github.com/appleguardu/Knowledge-Lib/issues/4)
   - [nginx 适配PC或移动设备](https://github.com/appleguardu/Knowledge-Lib/issues/5)
   - [Nginx 详细资料](https://juejin.im/post/5ea931866fb9a043815146fb#heading-30))
-
+- Node
+  - [pm2文档](https://pm2.keymetrics.io/docs/usage/pm2-doc-single-page/)
+  - [pm2 使用小结]()
 ## 计算机基础
 - [计算机基础概览](https://github.com/appleguardu/Knowledge-Lib/issues/35)
 - [计算机一些重要术语](https://github.com/appleguardu/Knowledge-Lib/issues/36)
