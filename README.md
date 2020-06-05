@@ -99,6 +99,8 @@
       - [vue-router](https://router.vuejs.org/zh/)
       - [vuex](https://vuex.vuejs.org/zh/)
       - [vue 常用插件集合](https://github.com/appleguardu/Knowledge-Lib/issues/61)
+  - Vue3.0
+    - [vue3.0 新语法预览](https://github.com/appleguardu/Knowledge-Lib/issues/78)
   - React.js
     - [react 官方文档](https://zh-hans.reactjs.org/docs/getting-started.html)
 - 框架源码层理解
