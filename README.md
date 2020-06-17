@@ -21,6 +21,7 @@
     - [css效果收集](https://github.com/appleguardu/Knowledge-Lib/blob/master/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/css/2.css%20%E7%89%B9%E6%95%88%E6%94%B6%E9%9B%86.md)
     - [css 问题记录](https://github.com/appleguardu/Knowledge-Lib/blob/master/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/css/3.css%20%E9%97%AE%E9%A2%98%E8%AE%B0%E5%BD%95.md)
     - [flex元素属性详解](https://github.com/appleguardu/Knowledge-Lib/issues/66)
+    - [z-index冲突带来的思考(css 层叠上下文)](https://github.com/appleguardu/Knowledge-Lib/issues/79)
 - JAVAScript
   - ECMAScript
     - [ECMAScript规范](http://yanhaijing.com/es5/)
