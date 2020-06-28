@@ -77,7 +77,8 @@
   - [interface&type](https://github.com/appleguardu/Knowledge-Lib/blob/master/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/ts/interface%26type.ts)
   - [泛型使用](https://github.com/appleguardu/Knowledge-Lib/issues/62)
   - [TS类型编程初识(泛型工具)](https://github.com/appleguardu/Knowledge-Lib/issues/63)
-
+- JS异步编程
+  - [理解JS异步编程模型](https://github.com/appleguardu/Knowledge-Lib/issues/80)
 ## 浏览器环境
 - [浏览器架构概览](https://github.com/appleguardu/Knowledge-Lib/issues/37)
 - [前端网络知识概览](https://github.com/appleguardu/Knowledge-Lib/issues/38)
