@@ -75,8 +75,6 @@ tcpdump -nn -i eth0 icmp
 
 ## 系统信息查看
 ```shell
-# 磁盘容量
-df -h
 
 # 系统配置
 cat /proc/cpuinfo 
@@ -92,4 +90,13 @@ cat /etc/redhat-release # 只适合Redhat系的Linux, 如centos
 
 cat /etc/issue # 适用于所有
 # Ubuntu 18.04.4 LTS \n \l
+```
+
+## 应用存储信息
+```shell
+# 系统总磁盘容量
+df -h
+
+# 当前目录所占磁盘大小
+du -sh
 ```
