@@ -187,7 +187,7 @@
   - [linux 系统常用命令](https://github.com/appleguardu/Knowledge-Lib/issues/1)
   - [linux 进程可视化监控工具:Htop](https://github.com/appleguardu/blog/issues/77)
   - [shell 脚本命令](https://github.com/appleguardu/Knowledge-Lib/issues/6)
-  - [fronter 常用命令](https://github.com/appleguardu/Knowledge-Lib/blob/master/%E8%BF%90%E7%BB%B4%E9%83%A8%E7%BD%B2%26%E6%9C%8D%E5%8A%A1%E5%99%A8/Linux/fronter.md)
+  - [前端常用linux命令](https://github.com/appleguardu/Knowledge-Lib/issues/82)
 - Nginx
   - [nginx 配置文件](https://github.com/appleguardu/Knowledge-Lib/issues/2)
   - [nginx 指令及错误页配置](https://github.com/appleguardu/Knowledge-Lib/issues/3)

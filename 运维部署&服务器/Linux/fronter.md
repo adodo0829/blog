@@ -1,37 +1,46 @@
-# linux服务器常用命令
+# linux 服务器常用命令
 
-## 连接服务器ssh
-```
+## 连接服务器 ssh
+
+```txt
 ssh -p 58422 root@192.168.x.xxx
-输入 password: 
+输入 password:
 ```
 
 ## 文件目录操作
+
 - 创建
+
 ```shell
 mkdir www # 在/创建 www
 mkdir /www/test/js
 ```
+
 - 复制
+
 ```shell
 cp -r www/* test/www/ # www目录下的内容整体拷贝到output目录
 cp nginx.conf output/ # 复制了单个文件nginx.conf到output下
 ```
 
 ## 查找进程
-```
+
+```shell
 ps -ef | grep nginx
-// master process => nginx 安装所在目录
+# master process => nginx 安装所在目录
 ```
 
 ## 查看主机联通
-```
+
+```shell
 ping host
 telnet host port
 ```
 
-## netstat: 监控TCP/IP网络
+## netstat: 监控 TCP/IP 网络
+
 查看端口使用
+
 ```shell
 # 列出所有端口情况
 netstat -a      # 列出所有端口
@@ -61,30 +70,31 @@ Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
 
 # 查看端口和服务
 netstat -antp | grep ssh
-tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      734/sshd            
-tcp        0     52 192.168.130.20:22       119.129.118.189:58737   ESTABLISHED 1846/sshd: root@pts 
-tcp6       0      0 :::22                   :::*                    LISTEN      734/sshd            
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      734/sshd
+tcp        0     52 192.168.130.20:22       119.129.118.189:58737   ESTABLISHED 1846/sshd: root@pts
+tcp6       0      0 :::22                   :::*                    LISTEN      734/sshd
 netstat -antp | grep 22
-tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      734/sshd            
-tcp        0     52 192.168.130.20:22       119.129.118.189:58737   ESTABLISHED 1846/sshd: root@pts 
-tcp6       0      0 :::22                   :::*                    LISTEN      734/sshd            
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      734/sshd
+tcp        0     52 192.168.130.20:22       119.129.118.189:58737   ESTABLISHED 1846/sshd: root@pts
+tcp6       0      0 :::22                   :::*                    LISTEN      734/sshd
 
 # 网络抓包工具
 tcpdump -nn -i eth0 icmp
 ```
 
 ## 系统信息查看
+
 ```shell
 
 # 系统配置
-cat /proc/cpuinfo 
+cat /proc/cpuinfo
 
 # Linux 系统版本
 lsb_release -a # 列出所有版本信息, 适用于所有
-# Distributor ID:	Ubuntu
-# Description:	Ubuntu 18.04.4 LTS
-# Release:	18.04
-# Codename:	bionic
+# Distributor ID: Ubuntu
+# Description:Ubuntu 18.04.4 LTS
+# Release:18.04
+# Codename:bionic
 
 cat /etc/redhat-release # 只适合Redhat系的Linux, 如centos
 
@@ -93,10 +103,14 @@ cat /etc/issue # 适用于所有
 ```
 
 ## 应用存储信息
+
 ```shell
 # 系统总磁盘容量
 df -h
 
 # 当前目录所占磁盘大小
-du -sh
+du -h --max-depth=1
+
+# 根目录大小
+du -sh /*
 ```
