@@ -1,10 +1,10 @@
 # 知识体系 Tree Rebuild
 
-重学前端系列篇...  
+重学前端系列篇...
 对日常零碎的知识进行归类总结, 逐步建立自己的认知体系...💪💪💪
 
 前端知识点太多, 有时候需要由点到面的去深入, 有时又需要由面到点去扩展...  
-每天进步一丢丢, 持续更新中 ing...
+每天进步一丢丢, 持续更新中ing...喜欢的话欢迎点个star, 会持续更新
 
 ## 前端基础
 
@@ -173,6 +173,7 @@
 
   - [Node 文档规范](http://nodejs.cn/api/)
   - Node 读书笔记
+
   - Node Web 框架
     - [Express 文档](http://expressjs.com/)
     - [Koa 文档](https://github.com/koajs/koa/blob/master/docs/guide.md)
@@ -187,7 +188,7 @@
   - [linux 系统常用命令](https://github.com/appleguardu/Knowledge-Lib/issues/1)
   - [linux 进程可视化监控工具:Htop](https://github.com/appleguardu/blog/issues/77)
   - [shell 脚本命令](https://github.com/appleguardu/Knowledge-Lib/issues/6)
-  - [前端常用linux命令](https://github.com/appleguardu/Knowledge-Lib/issues/82)
+  - [前端常用 linux 命令](https://github.com/appleguardu/Knowledge-Lib/issues/82)
 - Nginx
   - [nginx 配置文件](https://github.com/appleguardu/Knowledge-Lib/issues/2)
   - [nginx 指令及错误页配置](https://github.com/appleguardu/Knowledge-Lib/issues/3)
@@ -196,7 +197,7 @@
   - [Nginx 详细资料](https://juejin.im/post/5ea931866fb9a043815146fb#heading-30))
 - Node
   - [pm2 文档](https://pm2.keymetrics.io/docs/usage/pm2-doc-single-page/)
-  - [pm2 使用小结]()
+  - [node 包管理工具](https://github.com/appleguardu/Knowledge-Lib/issues/83)
 
 ## 计算机基础
 
