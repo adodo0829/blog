@@ -109,7 +109,7 @@
     - [vue3.0 新语法预览](https://github.com/appleguardu/Knowledge-Lib/issues/78)
   - React.js
     - [react 官方文档](https://zh-hans.reactjs.org/docs/getting-started.html)
-    - [react 入门总结](https://github.com/appleguardu/Knowledge-Lib/issues/81)
+    - [react 入门实践总结](https://github.com/appleguardu/Knowledge-Lib/issues/81)
 - 框架源码层理解
   - Vue
     - [vue.js 源码逐行注释](https://github.com/appleguardu/Knowledge-Lib/blob/master/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/Vue%E6%BA%90%E7%A0%81%E5%B1%82/vue%E6%BA%90%E7%A0%81%E6%B3%A8%E9%87%8A.js)
