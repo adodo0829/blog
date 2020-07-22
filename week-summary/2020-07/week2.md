@@ -117,6 +117,7 @@ const DEAFAULT_FORMAT = "YYYY-MM-DD HH:mm:ss"; // 年月日 时分秒 24小时�
 const useClock = (format = DEAFAULT_FORMAT, lang: language = "en") => {
   const [time, setTime] = useState(Number(new Date()));
 
+  // time state更新, FC会重新执行渲染, 注意逻辑
   if (lang === "zh-cn") {
     moment.updateLocale("zh-cn", {
       // 添加中文自定义配置

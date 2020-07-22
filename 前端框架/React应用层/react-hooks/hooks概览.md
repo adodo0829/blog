@@ -7,6 +7,8 @@ const [ count, setCount ] = useState(0)
 参数: js中的数据类型, 参数为函数时, useState中的函数只会执行一次
 返回值: 数组 [count, setCount]; 通过setCount可以设置更新后的值, setCount(count + 1)
 
+** 注意state变化, 就会导致FC重新渲染, 执行逻辑 **
+
 ## 2.useEffect
 通常我们在绑定事件、解绑事件、设定定时器、查找 dom 的时候，都是通过 componentDidMount、componentDidUpdate、componentWillUnmount 生命周期来实现的;
 而 useEffect 会在组件每次 render 之后调用，就相当于这三个生命周期函数，只不过可以通过`传参`来决定是否调用
