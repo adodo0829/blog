@@ -3,5 +3,5 @@
 
 ## 2020-07
 #### week2
-hook使用: useState,useEffect
-ts重温: keyof取类型的键, typeof取变量的类型
+hook使用: useState, useEffect
+ts: keyof取类型的键, typeof取变量的类型
