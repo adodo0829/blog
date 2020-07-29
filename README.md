@@ -109,7 +109,8 @@
     - [vue3.0 新语法预览](https://github.com/appleguardu/Knowledge-Lib/issues/78)
   - React.js
     - [react 官方文档](https://zh-hans.reactjs.org/docs/getting-started.html)
-    - [react 入门实践总结](https://github.com/appleguardu/Knowledge-Lib/issues/81)
+    - [react 入门实践](https://github.com/appleguardu/Knowledge-Lib/issues/81)
+    - [react hooks入门实践](https://github.com/appleguardu/Knowledge-Lib/issues/85)
 - 框架源码层理解
   - Vue
     - [vue.js 源码逐行注释](https://github.com/appleguardu/Knowledge-Lib/blob/master/%E5%89%8D%E7%AB%AF%E6%A1%86%E6%9E%B6/Vue%E6%BA%90%E7%A0%81%E5%B1%82/vue%E6%BA%90%E7%A0%81%E6%B3%A8%E9%87%8A.js)
@@ -141,13 +142,7 @@
   - [兼容性问题](https://github.com/appleguardu/Knowledge-Lib/blob/master/%E6%97%A5%E5%B8%B8%E5%BC%80%E5%8F%91%E9%97%AE%E9%A2%98%E7%A7%AF%E7%B4%AF/browser_compatibility.md)
 
 ## 跨端开发
-
-- PC
-- H5 Web App
-- Hybrid App
-- Native App
-- Electron
-- 小程序
+PC; H5 Web App; Hybrid App; Native App; Electron; 小程序
 
 ## 性能优化
 
@@ -198,7 +193,8 @@
 - Node
   - [pm2 文档](https://pm2.keymetrics.io/docs/usage/pm2-doc-single-page/)
   - [node 包管理工具](https://github.com/appleguardu/Knowledge-Lib/issues/83)
-
+- Docker
+  - [Docker入门](https://github.com/appleguardu/Knowledge-Lib/issues/86)
 ## 计算机基础
 
 - [计算机基础概览](https://github.com/appleguardu/Knowledge-Lib/issues/35)
