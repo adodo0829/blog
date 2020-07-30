@@ -144,3 +144,207 @@ function LayoutEffectComp() {
   );
 }
 ```
+
+## 6.useRef
+**useRef的作用**
+- 获取DOM元素的节点: 操作自己和子元素(子元素通过const ChildRef = React.forwardRef(Child)传递)
+- 获取子组件的实例: (子组件为class类组件)
+- 渲染周期之间共享数据的存储 (通过给useRef返回的对象赋值, 设置成全局的变量, 跨多个effect来控制他)
+
+```tsx
+// 1.操作DOM
+// 1.1操作自己
+const refObj = useRef<HTMLDivElement>(null)
+const eleNode = refObj.current
+// 1.2操作子元素DOM
+const Child1 = React.forwardRef(Child)
+const inputRef = useRef()
+inputRef.current.value = 'focus';
+inputRef.current.focus()
+<Child1 ref={inputRef} />
+
+// 2.获取子元素实例, 子元素为类组件
+const childInstance = useRef() // react instatce obj
+<ChildRef ref={childInstance} />
+
+// 3.跨Effect共享数据
+const Index: FC = () => {
+  const [count, setCount] = useState(0);
+  // 把定时器设置成全局变量使用useRef挂载到current上
+  const timer = useRef() as any;
+  console.log(timer);
+
+  // 首次加载useEffect方法执行一次设置定时器
+  useEffect(() => {
+    timer.current = setInterval(() => {
+      setCount((count) => count + 1);
+    }, 1000);
+  }, []);
+  // count每次更新都会执行这个副作用，当count > 5时，清除定时器
+  useEffect(() => {
+    if (count > 5) {
+      clearInterval(timer.current);
+    }
+  });
+  return <h6>count: {count}</h6>;
+};
+```
+
+## 7.useImperativeHandle
+可以操作子组件中多个DOM元素
+useImperativeHandle可以让你在使用 ref 时, 自定义暴露给父组件的实例值
+
+```tsx
+function Child(props: any, parentRef: any) {
+  // 子组件内部自己创建 ref
+  let focusRef = useRef() as any;
+  let inputRef = useRef() as any;
+  useImperativeHandle(parentRef, () => {
+    // 这个函数会返回一个对象
+    // 该对象会作为父组件 current 属性的值
+    // 通过这种方式，父组件可以使用操作子组件中的多个 ref
+    return {
+      focusRef,
+      inputRef,
+      name: "计数器",
+      focus() {
+        focusRef.current.focus();
+      },
+      changeText(text: string) {
+        inputRef.current.value = text;
+      },
+    };
+  });
+
+  return (
+    <>
+      <input ref={focusRef} />
+      <input ref={inputRef} />
+    </>
+  );
+}
+
+const ForwardChild = forwardRef(Child);
+
+```
+
+## 8.custom hook
+自定义hook: 函数, 使用了其他hook的函数
+
+```ts
+/**
+ * 自定义 Hook 更像是一种约定，而不是一种功能。
+ * 如果函数的名字以 use 开头，并且调用了其他的 Hook，则就称其为一个自定义 Hook
+ * 有时候我们会想要在组件之间重用一些状态逻辑，之前要么用 render props ，要么用高阶组件，要么使用 redux
+ * 自定义 Hook 可以让你在不增加组件的情况下达到同样的目的
+ * Hook 是一种复用状态逻辑的方式，它不复用 state 本身
+ * 事实上 Hook 的每次调用都有一个完全独立的 state
+ */
+
+import { useState, useEffect } from 'react'
+
+const useNumber = () => {
+  const [num, setNum] = useState(0)
+
+  useEffect(() => {
+    
+    const timer = setInterval(() => {
+      setNum(num => num + 1)
+    }, 1000)
+
+    return () => {
+      clearInterval(timer)
+    }
+  }, [])
+
+  return [num, setNum]
+}
+
+export default useNumber
+```
+
+## 9.useCallback
+缓存函数引用
+
+```ts
+const memoizedCallback = useCallback(
+  () => {
+    doSomething(a, b);
+  },
+  [a, b],
+);
+```
+在a和b的变量值不变的情况下，memoizedCallback的引用不变。
+即：useCallback的第一个 入参函数 会被缓存，从而达到渲染性能优化的目的。
+useCallback缓存的是函数引用
+
+```tsx
+const Index: FC = () => {
+  const [count, setCount] = React.useState(0);
+  const [total, setTotal] = React.useState(0);
+  // 每次组件渲染时这个handleCount都是重新创建的一个新函数
+  // const handleCount = () => setCount(count + 1);
+
+  // 此时使用useCallback来缓存了函数，依赖项(deps)是一个空数组它代表这个函数在组件的生成周期内会永久缓存
+  // deps[]中依赖项不变的话, 函数引用也不变
+  const handleCount = useCallback(() => setCount(count => count + 1), []);
+  const handleTotal = () => setTotal(total + 1);
+  const prevHandleCount = usePrevProps(handleCount);
+
+  console.log(prevHandleCount, handleCount);
+  console.log("两次处理函数是否相等：", prevHandleCount === handleCount);
+
+  return (
+    <div>
+      <div>Count is {count}</div>
+      <div>Total is {total}</div>
+      <br />
+      <div>
+        <button onClick={handleCount}>Increment Count</button>
+        <button onClick={handleTotal}>Increment Total</button>
+      </div>
+    </div>
+  );
+};
+```
+
+## 10. useMemo
+缓存函数的返回值
+
+```ts
+const memoizedValue = useMemo(() => computeExpensiveValue(a, b), [a, b]);
+// 可理解：在a和b的变量值不变的情况下，memoizedValue的值不变。
+// 即：useMemo函数的第一个入参函数不会被执行，从而达到节省计算量的目的。
+// useMemo缓存计算数据的值
+```
+
+- 实例
+```tsx
+const Index: FC = () => {
+  const [count, setCount] = React.useState(0);
+  const [total, setTotal] = React.useState(0);
+
+  const calcValue = React.useMemo(() => {
+    return Array(100000)
+      .fill("")
+      .map((v) => /*一些大量计算*/ v + 1);
+      // 只有当count变量值改变的时候才会执行useMemo第一个入参的函数
+  }, [count]);
+
+  const handleCount = () => setCount((count) => count + 1);
+  const handleTotal = () => setTotal(total + 1);
+  const prevCalcValue = usePrevProps(calcValue);
+  
+  console.log("两次计算结果是否相等：", prevCalcValue === calcValue);
+  return (
+    <div>
+      <div>Count is {count}</div>
+      <div>Total is {total}</div>
+      <div>
+        <button onClick={handleCount}>Increment Count</button>
+        <button onClick={handleTotal}>Increment Total</button>
+      </div>
+    </div>
+  );
+};
+```
