@@ -32,6 +32,8 @@ console.log(Model.getName())
  *        将过程化的条件分支语句转化为对象的多态性, 
  *        将行为分布在各个对象中，并让这些对象各自负责自己的行为
  */
+
+// 每个对象单独管理自己的行为
 const googleMap = {
   show: function(){
     console.log( '开始渲染谷歌地图' );
@@ -64,3 +66,7 @@ const renderMap2 = function( type ){
     baiduMap.show();
   }
 };
+
+/**
+ * 3.继承
+ */
