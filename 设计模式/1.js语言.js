@@ -70,3 +70,5 @@ const renderMap2 = function( type ){
 /**
  * 3.继承
  */
+
+ // 本质就是 prototype原型对象的 引用
