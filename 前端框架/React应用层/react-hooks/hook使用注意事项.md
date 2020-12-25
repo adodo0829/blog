@@ -9,3 +9,5 @@
 如果 state 只想用在 组件内部，建议使用 useState，如果想维护全局 state 建议使用 useReducer
 
 组件生命周期: 异步数据useEffect中赋值渲染
+
+useCallback应用场景: 函数定义时需要进行大量运算 || 需要比较引用的场景,避免多次渲染 || 配合Memo使用
