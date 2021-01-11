@@ -11,3 +11,7 @@
 组件生命周期: 异步数据useEffect中赋值渲染
 
 useCallback应用场景: 函数定义时需要进行大量运算 || 需要比较引用的场景,避免多次渲染 || 配合Memo使用
+
+useLayoutEffect 相比 useEffect，通过同步执行状态更新可解决一些特性场景下的页面闪烁问题,
+内部state更新完毕后触发
+useEffect 可以满足百分之99的场景，而且 useLayoutEffect 会阻塞渲染
