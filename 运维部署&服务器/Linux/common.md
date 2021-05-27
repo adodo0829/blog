@@ -23,5 +23,17 @@ curl -b 'foo1=bar;foo2=bar2' https://google.com
 curl -d 'login=emma＆password=123' -X POST https://google.com/login
 ```
 
-4. -X参数指定 HTTP 请求的方法
+4. -X 参数指定 HTTP 请求的方法
 
+5.curl post json 参数
+
+```shell
+curl --header "Content-Type: application/json" \             
+  --request POST \
+  --data '{"containerCode":"321312321","warehouseCode":"","regionCode":"PS","stationCode":"PS-Inbound-003","deviceCode":""}' \
+  http://192.168.101.100:48000/ui-manager/proxy-wes/wareworkstation/processStation/queryCircularBoxUsable
+
+
+
+curl -H "Content-Type: application/json" -X POST  -d '{"containerCode":"321312321","warehouseCode":"","regionCode":"PS","stationCode":"PS-Inbound-003","deviceCode":""}'   http://192.168.101.100:48000/ui-manager/proxy-wes/wareworkstation/processStation/queryCircularBoxUsable
+```
