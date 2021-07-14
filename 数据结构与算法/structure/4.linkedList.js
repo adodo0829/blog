@@ -167,21 +167,25 @@ class LinkedList {
 
 const linklist = new LinkedList()
 
-linklist.push('html')
-linklist.push('css')
-linklist.push('js')
+linklist.push('111')
+linklist.push('222')
+linklist.push('333')
+linklist.push('444')
+linklist.push('555')
+linklist.push('666')
 
-console.log(linklist.count, linklist.getEleByIndex(2));
-linklist.insertBefore('vue', 2)
-console.log(linklist.getEleByIndex(3))
-console.log(linklist.indexOf('vue'));
-// console.log(linklist.remove('js'));
-// console.log(linklist.remove('vue'));
-console.log(linklist.toString())
-console.log(linklist.size());
-console.log(linklist.getFirst());
-linklist.clear()
-console.log(linklist, 1111);
+
+// console.log(linklist.count, linklist.getEleByIndex(2));
+// linklist.insertBefore('vue', 2)
+// console.log(linklist.getEleByIndex(3))
+// console.log(linklist.indexOf('vue'));
+// // console.log(linklist.remove('js'));
+// // console.log(linklist.remove('vue'));
+// console.log(linklist.toString())
+// console.log(linklist.size());
+// console.log(linklist.getFirst());
+// linklist.clear()
+// console.log(linklist, 1111);
 
 
 /**
@@ -395,3 +399,6 @@ class LinkStack {
     return this.list.toString()
   }
 }
+
+
+module.exports.LinkList = linklist
