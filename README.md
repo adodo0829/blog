@@ -158,6 +158,9 @@ PC; H5 Web App; Hybrid App; Native App; Electron; 小程序
   - [栈](https://github.com/appleguardu/Knowledge-Lib/issues/64)
   - [队列&双端队列](https://github.com/appleguardu/Knowledge-Lib/issues/65)
   - [链表](https://github.com/appleguardu/Knowledge-Lib/issues/67)
+  - [集合](https://github.com/appleguardu/Knowledge-Lib/issues/96)
+  - [字典](https://github.com/appleguardu/Knowledge-Lib/issues/97)
+  - [散列表](https://github.com/appleguardu/Knowledge-Lib/issues/98)
 - 算法思想(空间与时间轮转)
   - [排序](https://github.com/appleguardu/blog/issues/74)
   - [搜索](https://github.com/appleguardu/blog/issues/75)
@@ -205,4 +208,3 @@ PC; H5 Web App; Hybrid App; Native App; Electron; 小程序
 - [谈谈个人的学习方法](https://github.com/appleguardu/Knowledge-Lib/issues/25)
 - [关于前端项目设计的思考](https://github.com/appleguardu/Knowledge-Lib/issues/68)
 - [组件化&模块化认识](https://github.com/appleguardu/Knowledge-Lib/issues/69)
-- [todo:谈谈前端的价值所在]
