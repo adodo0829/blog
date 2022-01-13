@@ -155,13 +155,17 @@ PC; H5 Web App; Hybrid App; Native App; Electron; 小程序
 ## 数据结构与算法
 
 - 数据结构(数据存储容器)
+  - [v8下array的实现](https://github.com/appleguardu/Knowledge-Lib/issues/99)
   - [栈](https://github.com/appleguardu/Knowledge-Lib/issues/64)
   - [队列&双端队列](https://github.com/appleguardu/Knowledge-Lib/issues/65)
   - [链表](https://github.com/appleguardu/Knowledge-Lib/issues/67)
   - [集合](https://github.com/appleguardu/Knowledge-Lib/issues/96)
   - [字典](https://github.com/appleguardu/Knowledge-Lib/issues/97)
   - [散列表](https://github.com/appleguardu/Knowledge-Lib/issues/98)
-- 算法思想(空间与时间轮转)
+  - [二叉搜索树](https://github.com/appleguardu/Knowledge-Lib/issues/100)
+  - [二叉堆](https://github.com/appleguardu/Knowledge-Lib/issues/101)
+  - [图](https://github.com/appleguardu/Knowledge-Lib/issues/102)
+- 算法思想(空间与时间转换)
   - [排序](https://github.com/appleguardu/blog/issues/74)
   - [搜索](https://github.com/appleguardu/blog/issues/75)
 

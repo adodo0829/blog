@@ -3,7 +3,25 @@
  * 在左侧节点存储（比父节点）小的值，在右侧节点存储（比父节点）大的值
  */
 
-const { defaultCompare, Compare, TreeNode } = require("./utils");
+const Compare = {
+  LESS_THAN: -1,
+  BIGGER_THAN: 1,
+};
+
+function defaultCompare(a, b) {
+  if (a === b) {
+    return 0;
+  }
+  return a < b ? Compare.LESS_THAN : Compare.BIGGER_THAN;
+}
+
+class TreeNode {
+  constructor(key) {
+    this.key = key;
+    this.left = null;
+    this.right = null;
+  }
+}
 
 class SearchTree {
   constructor(compareFn = defaultCompare) {
