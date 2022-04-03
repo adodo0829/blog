@@ -81,6 +81,7 @@
   - [TS 类型编程初识(泛型工具)](https://github.com/appleguardu/Knowledge-Lib/issues/63)
 - JS 异步编程
   - [理解 JS 异步编程模型](https://github.com/appleguardu/Knowledge-Lib/issues/80)
+  - [S中异步任务错误和中断处理](https://github.com/appleguardu/Knowledge-Lib/issues/106)
 
 - WebGL
   - [wegbl01-绘制流程](https://github.com/appleguardu/Knowledge-Lib/issues/103)
